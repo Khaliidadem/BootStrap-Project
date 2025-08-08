@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cafe Tale</title>
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    body {
+      background-color: white;
+    }
+
+    .navbar-nav .nav-link {
+      font-size: 18px;
+    }
+
+    .carousel-item img {
+      margin: auto;
+      border-radius: 20px;
+    }
+
+    .banner-text h1, .banner-text p {
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+       footer{
+        border:5px solid black ;
+        color: white;
+        background-color: black;
+
+
+       }
+  </style>
+</head>
+<body>
+
+  
+
+
+  
+  <nav class="navbar navbar-expand-sm navbar-dark" style="padding: 10px; background-color: rgb(0, 0, 0);">
+    <div class="container-fluid d-flex align-items-center">
+      <img src="logoo.jpg" class="rounded-circle me-3" alt="Cafe Logo" width="80px">
+      <span class="navbar-brand mb-0 h1 fs-3"><strong>Cafe Tale</strong></span>
+    </div>
+    <div class="container-fluid justify-content-end"> 
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li> 
+        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+  <div class="container-fluid p-0 position-relative">
+    <img src="rs=w_1030,h_468,cg_true.webp" alt="Cafe Header"
+         style="width: 100%; height: 500px; object-fit: cover;">
+
+   
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white banner-text">
+      <h1 style="font-size: 3rem;">Welcome To <strong>Cafe Tale</strong></h1>
+      <p style="font-size: 1.5rem;"> Unforgettable flavors, an unparalleled experience </p>
+      <a href="#about" class="btn btn-light btn-lg mt-3">List To Our Story</a>
+    </div>
+  </div>
+
+  
+  <div class="container mt-5">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+     
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      </div>
+
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="cafe 1.webp" alt="CafeTale1" class="d-block w-100" style="height: 800px; object-fit: cover;">
+        </div>
+        <div class="carousel-item">
+          <img src="cafe 2.webp" alt="CafeTale2" class="d-block w-100" style="height: 800px; object-fit: cover;">
+        </div>
+        <div class="carousel-item">
+          <img src="cafe 3.webp" alt="CafeTale3" class="d-block w-100" style="height: 800px; object-fit: cover;">
+        </div>
+        <div class="carousel-item">
+          <img src="cafe 4.webp" alt="CafeTale4" class="d-block w-100" style="height: 800px; object-fit: cover;">
+        </div>
+        <div class="carousel-item">
+          <img src="cafe 5.webp" alt="CafeTale5" class="d-block w-100" style="height: 800px; object-fit: cover;">
+        </div>
+      </div>
+
+     
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+
+  
+  <div class="container mt-5" id="about">
+    <h1><strong>Once upon a time</strong></h1>
+    <h3>Our Tale</h3>
+    <h4>We Aim To Be</h4>
+    <p>
+      Our vision is simple: quality brunch Cafes locally and regionally serving the best coffee, all sustainable and ethically sourced.
+      Our previous experience as a customer showed how rarely the customer was the prime focus in the transaction.
+      Cafe Tale is built to create meaningful experiences for local communities through quality products, innovation and an ever evolving vision.
+      Each branch is designed as a welcoming space that brings diverse people together.
+    </p>
+
+    <h4>We Aim To Do</h4>
+    <p>
+      Since opening our first site in 2015 Riyadh, we made it our mission as a company to create a different experience from store to store.
+      We strive to bring people out of the 9-5 grind; to create a place to take a moment, gather one's thoughts, refuel and get right back to it.
+    </p>
+ </div>
+  </div>
+
+   <div class="container mt-3">
+  <h2>continue..</h2>
+  <p>Here you can find our Rosting profile, Menu and every ditels belongs CafeTale </p>                  
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</div>
+
+<footer>
+  <p>Copyright © 2025 Cafe Tale - All Rights Reserved..to Cafe Tale</p>
+
+
+</footer>
+
+</body>
+</html>
